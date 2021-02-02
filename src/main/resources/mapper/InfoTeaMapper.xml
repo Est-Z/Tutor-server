@@ -8,4 +8,5 @@
         select * from infotea
         where openid=#{openid}
     </select>
+
 </mapper>

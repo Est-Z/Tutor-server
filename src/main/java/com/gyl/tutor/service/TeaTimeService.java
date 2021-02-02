@@ -5,6 +5,8 @@ import com.gyl.tutor.pojo.TeaTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class TeaTimeService {
 
@@ -13,5 +15,9 @@ public class TeaTimeService {
 
     public void updateTeaTime(TeaTime teaTime){
         teaTimeDao.save(teaTime);
+    }
+
+    public List<TeaTime> findByTeaId(Long id){
+        return teaTimeDao.findByTeaId(id);
     }
 }

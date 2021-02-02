@@ -193,4 +193,28 @@ public class InfoTea {
     public void setIsExp(String isExp) {
         this.isExp = isExp;
     }
+
+    @Override
+    public String toString() {
+        return "InfoTea{" +
+                "id=" + id +
+                ", openid='" + openid + '\'' +
+                ", nameWx='" + nameWx + '\'' +
+                ", name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", teaGrade='" + teaGrade + '\'' +
+                ", card='" + card + '\'' +
+                ", status='" + status + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", school='" + school + '\'' +
+                ", province='" + province + '\'' +
+                ", city='" + city + '\'' +
+                ", area='" + area + '\'' +
+                ", brief='" + brief + '\'' +
+                ", isExp='" + isExp + '\'' +
+                '}';
+    }
+
+
+//    public String
 }
